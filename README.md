@@ -107,7 +107,7 @@ http://localhost/dahrouj-management
 
 - **Nom d'utilisateur:** daii
 - **Mot de passe:** mohtadi
-- - **Nom d'utilisateur:** mohamed
+- **Nom d'utilisateur:** mohamed
 - **Mot de passe:** password
 ## 📁 Structure du projet
 
@@ -152,8 +152,8 @@ dahrouj-management/
 | Catégories | ✅ | ✅ | ✅ |
 | Fournisseurs | ✅ | ✅ | ✅ |
 | Utilisateurs | ✅ | ❌ | ❌ |
-| Comptabilité | ✅ | ❌ | ❌ |
-| Statistiques | ✅ | ❌  | ❌  |
+| Comptabilité | ✅ | ✅ | ❌ |
+| Statistiques | ✅ | ✅  | ❌  |
 
 ## 🔒 Sécurité
 
