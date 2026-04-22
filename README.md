@@ -42,7 +42,6 @@ Un système de gestion complet pour la société Dahrouj Import Textile, dévelo
 7. **Comptabilité**
    - Suivi des revenus et dépenses
    - Plan comptable
-   - Transactions
    - Bilan et résultat
 
 8. **Statistiques et Rapports**
@@ -106,11 +105,10 @@ http://localhost/dahrouj-management
 
 ## 🔐 Identifiants par défaut
 
-- **Nom d'utilisateur:** admin
-- **Mot de passe:** admin123
-
-**⚠️ Important:** Changez le mot de passe par défaut après la première connexion!
-
+- **Nom d'utilisateur:** daii
+- **Mot de passe:** mohtadi
+- - **Nom d'utilisateur:** mohamed
+- **Mot de passe:** password
 ## 📁 Structure du projet
 
 ```
@@ -154,39 +152,8 @@ dahrouj-management/
 | Catégories | ✅ | ✅ | ✅ |
 | Fournisseurs | ✅ | ✅ | ✅ |
 | Utilisateurs | ✅ | ❌ | ❌ |
-| Comptabilité | ✅ | ✅ | ❌ |
-| Statistiques | ✅ | ✅ | ✅ |
-
-## 🎨 Personnalisation
-
-### Modifier le logo
-Remplacer le fichier `assets/images/logo.png` par votre propre logo.
-
-### Modifier les couleurs
-Éditer le fichier `assets/css/style.css` et modifier les variables CSS:
-```css
-:root {
-    --primary-color: #1a5f7a;
-    --secondary-color: #c84b31;
-    --success-color: #28a745;
-    --warning-color: #ffc107;
-    --danger-color: #dc3545;
-    --info-color: #17a2b8;
-}
-```
-
-### Modifier la devise
-Dans `includes/config.php`:
-```php
-define('APP_CURRENCY', 'TND');
-define('APP_CURRENCY_SYMBOL', 'DT');
-```
-
-### Modifier le taux de TVA
-Dans `includes/config.php`:
-```php
-define('APP_TAX_RATE', 19); // 19% pour la Tunisie
-```
+| Comptabilité | ✅ | ❌ | ❌ |
+| Statistiques | ✅ | ❌  | ❌  |
 
 ## 🔒 Sécurité
 
@@ -197,35 +164,15 @@ define('APP_TAX_RATE', 19); // 19% pour la Tunisie
 - Gestion des sessions sécurisée
 - Vérification des permissions par rôle
 
-## 📝 Notes importantes
 
-1. **Sauvegardes régulières:** Effectuez des sauvegardes régulières de la base de données.
 
-2. **Mises à jour:** Gardez PHP et MySQL à jour pour des raisons de sécurité.
 
-3. **Logs:** Les activités des utilisateurs sont enregistrées dans la table `activity_log`.
-
-4. **Stock:** La mise à jour du stock se fait automatiquement lors de la création d'une commande.
-
-## 🐛 Dépannage
-
-### Problème de connexion à la base de données
-Vérifiez les paramètres dans `includes/config.php` et assurez-vous que MySQL est en cours d'exécution.
-
-### Erreur 500 (Internal Server Error)
-Vérifiez les permissions des dossiers et fichiers.
-
-### Images non uploadées
-Vérifiez que le dossier `uploads/` existe et a les permissions d'écriture (777).
-
-### Caractères spéciaux incorrects
-Vérifiez que la base de données utilise utf8mb4.
 
 ## 📞 Support
 
 Pour toute question ou problème, contactez:
-- Email: support@dahrouj.tn
-- Téléphone: +216 XX XXX XXX
+- Email: attig.mohtadi@icloud.tn
+- Téléphone: +216 28 853 280
 
 ## 📄 Licence
 
